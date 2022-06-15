@@ -3,8 +3,6 @@ const { addMovie } = require("./utils")
 const returnValue = addMovie({title: "Spiderman", actor: "Tobey Maquire" });
 // accept at least movie title on command line
 
-const newValue = addMovie({year: 2002})
-
 returnValue.year = 2002
 
 console.log(returnValue)
